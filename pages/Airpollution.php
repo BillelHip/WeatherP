@@ -43,19 +43,84 @@ if(isset($_GET)){
 	
 	$user_o3 = $json_o3['data'];
 	
-	echo '<div class="form-group">
+	/*echo '<div class="form-group">
           <label>Carbon monoxide:</label>
           <p class="form-control-static">'." Precision:".$user_precision . ",<br>Pressure:" .$user_pressure. ",<br>Value:" .$user_value.'</p>
-          </div>';
-	echo '<div class="form-group">
+          </div>';*/
+	/*echo '<div class="form-group">
           <label>Ozone layer thickness, DU:</label>
           <p class="form-control-static">'.$user_o3.'</p>
-          </div>';
+          </div>';*/
 	
 	//echo "Carbon monoxide information : "; echo '<br>';
 	//echo " Precision:".$user_precision . ",<br>Pressure:" .$user_pressure. ",<br>Value:" .$user_value;
 	//echo '<br>' . " Ozone layer thickness, DU:" .$user_o3;
+	echo '
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Carbon monoxide
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Precision</td>
+                                            <td>'.$user_precision .'</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pressure</td>
+                                            <td>'.$user_pressure.'</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Value</td>
+                                            <td>'.$user_value.'</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 	
+	
+	
+	';
+	echo '
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Ozone layer thickness, DU
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Layer thickness</td>
+                                            <td>'.$user_o3.' DU</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+	
+	
+	
+	';
 	
 };
 

@@ -76,8 +76,9 @@
             <!-- /.col-lg-6 (nested) -->
             <div class="col-lg-6"> 
             	<div id="name_feedback"></div> 
+                
             </div>
-            <!-- /.col-lg-6 (nested) -->
+            
           </div>
           <!-- /.row (nested) -->
         </div>

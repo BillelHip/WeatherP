@@ -70,19 +70,50 @@ $lon = substr($last, 0 , strlen($last) - 1);
  
 	 //$test = $json['tide']['tideInfo'];
 	 //count
+	 echo '
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Tide Status
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Height </th>
+											<th>Type  </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+			';
 	 if(count($json['tide']['tideSummary']) > 0){
 		for($i = 0 ; $i < count($json['tide']['tideSummary']);  $i++){
 			
-				echo '<div class="form-group">
+				/*echo '<div class="form-group">
           <label>Date : '.$json['tide']['tideSummary'][$i]['utcdate']['pretty'].'</label>
           <p class="form-control-static">Height : '.$json['tide']['tideSummary'][$i]['data']['height']."<br> Type : ".$json['tide']['tideSummary'][$i]['data']['type']. '</p>
-          </div>';
+          </div>';*/
+		  echo '
+			<tr>
+				<td>'.$json['tide']['tideSummary'][$i]['utcdate']['pretty'].'</td>
+				<td>'.$json['tide']['tideSummary'][$i]['data']['height']. '</td>
+				<td>'.$json['tide']['tideSummary'][$i]['data']['type'].'</td>
+			</tr>
+			';
 		
 			//print_r("Date : ".$json['tide']['tideSummary'][$i]['utcdate']['pretty'] . "<br>");
 			//print_r("Height : ".$json['tide']['tideSummary'][$i]['data']['height'] . "<br>");
 			//print_r("Type : ".$json['tide']['tideSummary'][$i]['data']['type'] . "<br>");
 		}
-	 	
+	 	echo '
+</tbody>
+         </table>
+        </div>
+      </div>
+</div>
+';
 	 }
     //var_dump($phpObj);
 

@@ -35,10 +35,45 @@ $lon = substr($last, 0 , strlen($last) - 1);
 	 $user_direction = $phpObj['query']['results']['channel']['wind']['direction'];
 	 //speed
 	 $user_speed = $phpObj['query']['results']['channel']['wind']['speed'];
-	 	echo '<div class="form-group">
+	 	/*echo '<div class="form-group">
           <label>Wind:</label>
           <p class="form-control-static">'." chill:".$user_chill . "<br>direction:" .$user_direction. "<br>Speed:" .$user_speed.'</p>
-          </div>';
+          </div>';*/
+		  
+		  echo '
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            Wind
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Chill</td>
+                                            <td>'.$user_chill . '</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Direction</td>
+                                            <td>'.$user_direction.'</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Speed</td>
+                                            <td>'.$user_speed.'</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+			';
 	 
     //var_dump($phpObj);
 ?>
