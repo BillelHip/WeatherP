@@ -49,6 +49,7 @@ $condition = $forecast->getCurrentConditions($latitude, $longitude);
           </div>';*/
 		  echo  '
 		  <div class="tab-pane fade in active" id="home">
+		  <br>
 			  <div class="form-group">
 			  <label>Current temperature: </label>
 			  <p class="form-control-static">'.$condition->getTemperature().'</p>
@@ -71,7 +72,7 @@ $conditions_today = $forecast->getForecastToday($latitude, $longitude);
 //echo "\n\nTodays temperature:\n";
 //echo '<div class="form-group">
          // <label>Todays temperature: </label>';
-echo '
+echo '<br>
 					<div class="panel panel-default">
                         <div class="panel-heading">
                             Todays temperature
@@ -124,7 +125,7 @@ $conditions_week = $forecast->getForecastWeek($latitude, $longitude);
 //echo "\n\nConditions this week:\n";
 //echo '<div class="form-group">
           //<label>Conditions this week: </label>';
-		  echo '
+		  echo '<br>
 					<div class="panel panel-default">
                         <div class="panel-heading">
                             Conditions this week
@@ -178,6 +179,7 @@ $condition = $forecast->getHistoricalConditions($latitude, $longitude, '2010-10-
           </div>';*/
 		  echo  '
 		   <div class="tab-pane fade" id="settings">
+		   <br>
 			  <div class="form-group">
 			  <label>Temperatur 2010-10-10: </label>';
 			  echo '<p class="form-control-static">'. $condition->getMaxTemperature(). '</p>
