@@ -73,7 +73,7 @@ if(isset($_GET)){
                                     <tbody>
                                         <tr>
                                             <td>Precision</td>
-                                            <td>'.$user_precision .'</td>
+                                            <td>'.$user_precision .'hPa</td>
                                         </tr>
                                         <tr>
                                             <td>Pressure</td>
