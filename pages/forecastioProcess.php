@@ -84,7 +84,7 @@ echo '<br>
                                     <thead>
                                         <tr>
                                             <th>Time</th>
-                                            <th>Value</th>
+                                            <th>Temperature</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -137,7 +137,7 @@ $conditions_week = $forecast->getForecastWeek($latitude, $longitude);
                                     <thead>
                                         <tr>
                                             <th>Day</th>
-                                            <th>Value</th>
+                                            <th>Temperature</th>
                                         </tr>
                                     </thead>
                                     <tbody>
