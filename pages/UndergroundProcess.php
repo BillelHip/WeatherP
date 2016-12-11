@@ -71,6 +71,7 @@ $lon = substr($last, 0 , strlen($last) - 1);
 	 //$test = $json['tide']['tideInfo'];
 	 //count
 	 echo '
+
 					<div class="panel panel-default">
                         <div class="panel-heading">
                             Tide Status

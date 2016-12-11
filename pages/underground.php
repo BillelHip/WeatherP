@@ -74,7 +74,12 @@
               <div id="map"></div>
             </div>
             <!-- /.col-lg-6 (nested) -->
-            <div class="col-lg-6"> 
+            <div class="col-lg-6">
+                <div class="panel-body">
+                    <div class="alert alert-danger">
+                        Notice: this API is only available in U.S.
+                    </div>
+                </div>
             	<div id="name_feedback"></div> 
             </div>
             <!-- /.col-lg-6 (nested) -->
