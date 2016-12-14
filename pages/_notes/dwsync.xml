@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="index.php" server="C:/xampp/htdocs/wp/" local="131245114062642081" remote="131245114060000000" Dst="0" />
-<file name="openweathermap.php" server="C:/xampp/htdocs/wp/" local="131249630166401552" remote="131249630160000000" Dst="0" />
-<file name="forms.html" server="C:/xampp/htdocs/wp/" local="131243671017149019" remote="131243671010000000" Dst="0" />
-<file name="flot.html" server="C:/xampp/htdocs/wp/" local="131243671017059109" remote="131243671010000000" Dst="0" />
-<file name="Airpollution.php" server="C:/xampp/htdocs/wp/" local="131249633893794472" remote="131249633890000000" Dst="0" />
-<file name="yahoo.php" server="C:/xampp/htdocs/wp/" local="131245211137219155" remote="131245211130000000" Dst="0" />
-<file name="YahooProcess.php" server="C:/xampp/htdocs/wp/" local="131244328195405506" remote="131244328190000000" Dst="0" />
-<file name="forecast.php" server="C:/xampp/htdocs/wp/" local="131245211234479411" remote="131245211230000000" Dst="0" />
-<file name="forecastioProcess.php" server="C:/xampp/htdocs/wp/" local="131249658204725277" remote="131249658200000000" Dst="0" />
-<file name="forecast.io.php" server="C:/xampp/htdocs/wp/" local="131244395469511351" remote="131244395460000000" Dst="0" />
-<file name="underground.php" server="C:/xampp/htdocs/wp/" local="131245210947049319" remote="131245210940000000" Dst="0" />
-<file name="UndergroundProcess.php" server="C:/xampp/htdocs/wp/" local="131249647960257705" remote="131249647960000000" Dst="0" />
-<file name="morris.html" server="C:/xampp/htdocs/wp/" local="131243671017599341" remote="131243671010000000" Dst="0" />
-<file name="tables.html" server="C:/xampp/htdocs/wp/" local="131243671017881343" remote="131243671010000000" Dst="0" />
-<file name="panels-wells.html" server="C:/xampp/htdocs/wp/" local="131243671017789514" remote="131243671010000000" Dst="0" />
+<file name="index.html" server="C:/xampp/htdocs/wpMob/" local="131243694492510704" remote="131243694490000000" Dst="0" />
+<file name="openweathermap.html" server="C:/xampp/htdocs/wpMob/" local="131247845328292079" remote="131247845320000000" Dst="0" />
+<file name="test.html" server="C:/xampp/htdocs/wpMob/" local="131246034520000000" remote="131246034520000000" Dst="0" />
+<file name="yahoo.html" server="C:/xampp/htdocs/wpMob/" local="131247290744762246" remote="131247290740000000" Dst="0" />
+<file name="forecast.html" server="C:/xampp/htdocs/wpMob/" local="131247288468315728" remote="131247288460000000" Dst="0" />
+<file name="underground.html" server="C:/xampp/htdocs/wpMob/" local="131247289574424358" remote="131247289570000000" Dst="0" />
 </dwsync>
